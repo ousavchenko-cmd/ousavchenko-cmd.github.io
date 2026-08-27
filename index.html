@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VideoForge</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0; padding: 3rem 1.25rem;
+    font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #ffffff; color: #16262c;
+  }
+  main { max-width: 38rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; letter-spacing: -.02em; margin: 0 0 .35rem; }
+  .sub { color: #5a6b72; margin: 0 0 2rem; }
+  h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .3rem 0; }
+  a { color: #10505f; }
+  footer { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid #d2dad9;
+           color: #7c8d92; font-size: .875rem; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0e181c; color: #dce7e9; }
+    .sub { color: #9cb1b7; }
+    a { color: #6fb6c9; }
+    footer { border-top-color: #2a424b; color: #7a9198; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>VideoForge</h1>
+  <p class="sub">Внутренний инструмент сборки рекламных видеороликов.</p>
+
+  <p>
+    VideoForge собирает видео из готовых исходников: склеивает клипы, приводит их
+    к нужным форматам кадра, накладывает субтитры и оформление, готовит языковые
+    версии. Инструмент не является публичным сервисом — им пользуется
+    ограниченный круг сотрудников и подрядчиков по приглашению администратора.
+  </p>
+
+  <h2>Работа с Google Drive</h2>
+  <p>
+    С разрешения владельца аккаунта приложение берёт исходные файлы из указанных
+    им папок Google Drive и складывает туда результаты сборки. Доступ выдаётся
+    через стандартный протокол OAuth&nbsp;2.0 и отзывается владельцем в любой
+    момент на странице
+    <a href="https://myaccount.google.com/permissions">разрешений аккаунта Google</a>.
+  </p>
+  <ul>
+    <li>Пароль от аккаунта Google приложение не видит и не хранит.</li>
+    <li>Данные не передаются третьим лицам и не используются для рекламы.</li>
+    <li>Локальные копии файлов удаляются после выгрузки на Google&nbsp;Drive.</li>
+  </ul>
+
+  <h2>Ссылки</h2>
+  <ul>
+    <li><a href="privacy.html">Политика конфиденциальности</a></li>
+    <li><a href="https://github.com/ousavchenko-cmd/VideoForge">Исходный код на GitHub</a></li>
+  </ul>
+
+  <footer>Обновлено 27 августа 2026</footer>
+</main>
+</body>
+</html>
